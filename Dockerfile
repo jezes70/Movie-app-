@@ -11,7 +11,7 @@ COPY .env ./
 
 RUN yarn
 
-RUN yarn compile
+RUN yarn tsc
 
 CMD ["yarn", "start"]
 
